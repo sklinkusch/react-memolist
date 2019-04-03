@@ -14,7 +14,6 @@ class MemoList extends Component {
     this.setState({ text: event.target.value });
   };
   handleSubmit = event => {
-    console.log("Submit");
     event.preventDefault();
     const newItem = {
       id: Date.now(),
