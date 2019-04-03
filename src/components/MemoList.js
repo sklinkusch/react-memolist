@@ -5,10 +5,9 @@ import "../styles/MemoList.css";
 class MemoList extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      text: "",
-      items: []
-    };
+    this.state = {};
+    this.state.text = "";
+    this.state.items = JSON.parse(localStorage.getItem("items")) || [];
   }
   handleChange = event => {
     this.setState({ text: event.target.value });
@@ -24,7 +23,12 @@ class MemoList extends Component {
       text: ""
     }));
   };
+  save() {
+    const jsonItems = JSON.stringify(this.state.items);
+    localStorage.setItem("items", jsonItems);
+  }
   render() {
+    this.save();
     return (
       <div>
         <ItemsList items={this.state.items} />
