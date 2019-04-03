@@ -1,7 +1,14 @@
 import React, { Component } from "react";
+import "./ItemsList.css";
 
 export default class ItemsList extends Component {
   render() {
-    return <div>HERE THERE WILL BE A LIST OF ITEMS</div>;
+    return (
+      <ul>
+        {this.props.items.map((item, index) => (
+          <li key={index}>{item.text}</li>
+        ))}
+      </ul>
+    );
   }
 }
