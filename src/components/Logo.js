@@ -1,7 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import logo from "../logo.svg";
 
 const Logo = () => {
-  return <img src={logo} className="App-logo" alt="logo" />;
+  return (
+    <div>
+      <img src={logo} className="App-logo" alt="logo" />
+    </div>
+  );
 };
 export default Logo;
