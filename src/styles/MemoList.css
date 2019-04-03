@@ -1,7 +1,12 @@
 input {
   margin: 10px 5px;
   padding: 5px;
+  border: 2px solid grey;
 }
 button {
   padding: 5px;
+  border: 2px solid greenyellow;
+  background-color: green;
+  color: white;
+  font-weight: bold;
 }
