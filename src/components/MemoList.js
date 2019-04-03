@@ -18,6 +18,9 @@ class MemoList extends Component {
       id: Date.now(),
       text: this.state.text
     };
+    if (this.state.text === "") {
+      return;
+    }
     this.setState(state => ({
       items: state.items.concat(newItem),
       text: ""
