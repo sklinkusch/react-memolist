@@ -4,7 +4,10 @@ import "./MemoList.css";
 class MemoList extends Component {
   constructor(props) {
     super(props);
-    this.state = { text: "" };
+    this.state = {
+      text: "",
+      items: []
+    };
   }
   handleChange = event => {
     this.setState({ text: event.target.value });
