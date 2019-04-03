@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ItemsList from "./ItemsList";
-import "./MemoList.css";
+import "../styles/MemoList.css";
 
 class MemoList extends Component {
   constructor(props) {
