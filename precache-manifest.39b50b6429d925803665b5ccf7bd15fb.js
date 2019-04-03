@@ -4,11 +4,15 @@ self.__precacheManifest = [
     "url": "/react-memolist/static/media/logo.5d5d9eef.svg"
   },
   {
+    "revision": "f2cf95ccd21c71ada067724d2ec78e0f",
+    "url": "/react-memolist/static/media/kelly-sikkema-411622-unsplash.f2cf95cc.jpg"
+  },
+  {
     "revision": "3738d567889df8ef8308",
     "url": "/react-memolist/static/js/runtime~main.cb4315b7.js"
   },
   {
-    "revision": "1aa10d1aa1e48dd49665",
+    "revision": "4353c33673951b4365f2",
     "url": "/react-memolist/static/js/main.337fd47a.chunk.js"
   },
   {
@@ -16,11 +20,11 @@ self.__precacheManifest = [
     "url": "/react-memolist/static/js/2.98dcc9dd.chunk.js"
   },
   {
-    "revision": "1aa10d1aa1e48dd49665",
-    "url": "/react-memolist/static/css/main.a2886874.chunk.css"
+    "revision": "4353c33673951b4365f2",
+    "url": "/react-memolist/static/css/main.360e8a84.chunk.css"
   },
   {
-    "revision": "3c25db04667ae598aac2909ce7a80e23",
+    "revision": "167b5dd0153a6df8fb413ee01f871ffd",
     "url": "/react-memolist/index.html"
   }
 ];
