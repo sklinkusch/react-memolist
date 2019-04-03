@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Logo from "./components/Logo";
 import Header from "./components/Header";
+import MemoList from "./components/MemoList";
 import "./App.css";
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
         <header className="App-header">
           <Logo />
           <Header />
+          <MemoList />
         </header>
       </div>
     );
