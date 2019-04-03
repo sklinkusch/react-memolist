@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/react-memolist/static/js/runtime~main.cb4315b7.js"
   },
   {
-    "revision": "4353c33673951b4365f2",
-    "url": "/react-memolist/static/js/main.337fd47a.chunk.js"
+    "revision": "c13afe2bce67fad808c6",
+    "url": "/react-memolist/static/js/main.43142e5c.chunk.js"
   },
   {
     "revision": "58f496bc1ce27350f0eb",
     "url": "/react-memolist/static/js/2.98dcc9dd.chunk.js"
   },
   {
-    "revision": "4353c33673951b4365f2",
-    "url": "/react-memolist/static/css/main.360e8a84.chunk.css"
+    "revision": "c13afe2bce67fad808c6",
+    "url": "/react-memolist/static/css/main.6a3b2076.chunk.css"
   },
   {
-    "revision": "167b5dd0153a6df8fb413ee01f871ffd",
+    "revision": "44d09221f0fef4e882365ea7e2cbc446",
     "url": "/react-memolist/index.html"
   }
 ];
