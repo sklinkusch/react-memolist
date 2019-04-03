@@ -28,8 +28,8 @@ class MemoList extends Component {
   render() {
     return (
       <div>
+        <ItemsList items={this.state.items} />
         <p>What do you want to add?</p>
-        <ItemsList />
         <form onSubmit={this.handleSubmit}>
           <input
             type="text"
