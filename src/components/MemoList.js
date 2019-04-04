@@ -21,17 +21,18 @@ class MemoList extends Component {
     if (this.state.text === "") {
       return;
     }
+    const newItems = this.state.items.concat(newItem);
     this.setState(state => ({
-      items: state.items.concat(newItem),
+      items: newItems,
       text: ""
     }));
+    this.save(newItems);
   };
-  save() {
-    const jsonItems = JSON.stringify(this.state.items);
+  save(items) {
+    const jsonItems = JSON.stringify(items);
     localStorage.setItem("items", jsonItems);
   }
   render() {
-    this.save();
     return (
       <div>
         <ItemsList items={this.state.items} />
