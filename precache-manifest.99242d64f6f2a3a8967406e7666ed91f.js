@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/react-memolist/static/css/main.6a3b2076.chunk.css"
   },
   {
-    "revision": "020d012732c7aea3b53df40001062c9c",
+    "revision": "105dbf1e9d3d501e7793294d21ca6900",
     "url": "/react-memolist/index.html"
   }
 ];
